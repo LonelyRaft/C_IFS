@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell32",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell32": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "env": {
+                "PATH": "${env:path};D:/MSYS2/mingw32/bin;D:/MSYS2/usr/bin"
+            }
+        },
+        "PowerShell64": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "env": {
+                "PATH": "${env:path};D:/MSYS2/mingw64/bin;D:/MSYS2/usr/bin"
+            }
+        },
+        "PowerShell": null,
+        "Command Prompt": null,
+        "Git Bash": null
+    },
+}
